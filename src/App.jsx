@@ -15,9 +15,9 @@ import NativeBalance from "components/NativeBalance";
 import "./style.css";
 import QuickStart from "components/QuickStart";
 import Contract from "components/Contract/Contract";
-import Text from "antd/lib/typography/Text";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
+
 const { Header, Footer } = Layout;
 
 const styles = {
@@ -62,7 +62,9 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <Logo />
+        
+          <h1>YakaCoin</h1>
+        
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
@@ -132,10 +134,6 @@ const App = ({ isServerInfo }) => {
   );
 };
 
-export const Logo = () => (
-  <div style={{ display: "flex" }}>
-    <img src='/public/logo2.png' alt="Logo2" height={50} width={100}/>
-  </div>
-);
+
 
 export default App;

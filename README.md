@@ -737,3 +737,15 @@ const SupportedTokens = () => {
 
 ### Where to host your dApp?
 
+# Mandatory info for starting the app
+REACT_APP_MORALIS_APPLICATION_ID =CZ4N3qByVOs7vqiziUQTxWC0tWW6txoCL5NiTUVK 
+REACT_APP_MORALIS_SERVER_URL = https://nvypxkiv9dhq.usemoralis.com:2053/server
+
+# Optional info for connecting your localChain and Moralis Database
+moralisApiKey = LfCIk2cIhfotuPB
+moralisApiSecret = E4ACQwxqcPiOEGS
+frpcPath = F:\frpc\frpc.exe
+chain = ganache
+moralisSubdomain = nvypxkiv9dhq.usemoralis.com
+abiPath = "F:\ethereum-boilerplate\Truffle\build\contracts\Contract.json"
+SKIP_PREFLIGHT_CHECK=true
